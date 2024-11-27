@@ -1,6 +1,5 @@
 library(clusterConfusion)
 library(ggplot2)
-setwd('D:/FairEdu/FACROC clustering/Experiments')
 source("FACROC.R")
 
 facroc_experiment <- function(dataset=NULL, clustering_result=NULL, figure_out = NULL, 
